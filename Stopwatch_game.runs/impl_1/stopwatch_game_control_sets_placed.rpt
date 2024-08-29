@@ -1,0 +1,79 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Aug 20 17:31:31 2024
+| Host         : LAPTOP-EI9NHOKJ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file stopwatch_game_control_sets_placed.rpt
+| Design       : stopwatch_game
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    25 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            4 |
+|      8 |            3 |
+|     14 |            1 |
+|     15 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               8 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              14 |            4 |
+| Yes          | No                    | No                     |              48 |           13 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              49 |           14 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+------------------------------------+---------------------------------------+------------------+----------------+
+|          Clock Signal         |            Enable Signal           |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++-------------------------------+------------------------------------+---------------------------------------+------------------+----------------+
+|  clock_divider/inst/clk_20MHz | timer_module/inc_4th_digit_reg_n_0 | timer_module/ten_sec[3]_i_1_n_0       |                1 |              4 |
+|  clock_divider/inst/clk_20MHz | timer_module/inc_3rd_digit         | timer_module/one_sec[3]_i_1_n_0       |                2 |              4 |
+|  clock_divider/inst/clk_20MHz | timer_module/ten_milli[3]_i_2_n_0  | timer_module/ten_milli[3]_i_1_n_0     |                1 |              4 |
+|  clock_divider/inst/clk_20MHz | timer_module/inc_2nd_digit_reg_n_0 | timer_module/hundred_milli[3]_i_1_n_0 |                1 |              4 |
+|  clock_divider/inst/clk_20MHz |                                    |                                       |                6 |              8 |
+|  clock_divider/inst/clk_20MHz | control_module/shift_freeze        |                                       |                1 |              8 |
+|  clock_divider/inst/clk_20MHz | control_module/enable_reg_n_0      |                                       |                3 |              8 |
+|  clock_divider/inst/clk_20MHz |                                    | control_module/counter[14]_i_1__0_n_0 |                4 |             14 |
+|  clock_divider/inst/clk_20MHz | display_module/sel                 | display_module/clear                  |                4 |             15 |
+|  clock_divider/inst/clk_20MHz | control_module/E[0]                | control_module/debounced_reset        |                5 |             18 |
+|  clock_divider/inst/clk_20MHz | display_module/enable              |                                       |                9 |             32 |
++-------------------------------+------------------------------------+---------------------------------------+------------------+----------------+
+
+

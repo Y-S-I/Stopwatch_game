@@ -1,0 +1,14 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sim_1/new/tb_stopwatch.v,1724046676,verilog,,,,tb_stopwatch,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/imports/new/bcd_to_hex.v,1723974474,verilog,,C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/control_and_debounce.v,,bcd_to_hex,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1723904524,verilog,,C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/BCD_Timer.v,,clk_wiz_0,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1723904524,verilog,,C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/BCD_Timer.v,1724046499,verilog,,C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/imports/new/bcd_to_hex.v,,BCD_Timer,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/control_and_debounce.v,1723960812,verilog,,C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/display_unit.v,,control_and_debounce,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/display_unit.v,1724001190,verilog,,C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/stopwatch_game.v,,display_unit,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/stopwatch_game.v,1723974767,verilog,,C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/two_player_FSM.v,,stopwatch_game,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sources_1/new/two_player_FSM.v,1724003864,verilog,,C:/Reality/Verilog Workspace/Stopwatch_game/Stopwatch_game.srcs/sim_1/new/tb_stopwatch.v,,two_player_FSM,,,../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0,,,,,

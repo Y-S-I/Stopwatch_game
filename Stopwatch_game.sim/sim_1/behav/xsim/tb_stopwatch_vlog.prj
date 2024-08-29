@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../Stopwatch_game.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../Stopwatch_game.srcs/sources_1/new/BCD_Timer.v" \
+"../../../../Stopwatch_game.srcs/sources_1/imports/new/bcd_to_hex.v" \
+"../../../../Stopwatch_game.srcs/sources_1/new/control_and_debounce.v" \
+"../../../../Stopwatch_game.srcs/sources_1/new/display_unit.v" \
+"../../../../Stopwatch_game.srcs/sources_1/new/stopwatch_game.v" \
+"../../../../Stopwatch_game.srcs/sources_1/new/two_player_FSM.v" \
+"../../../../Stopwatch_game.srcs/sim_1/new/tb_stopwatch.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
